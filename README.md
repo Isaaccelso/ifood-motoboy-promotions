@@ -1,0 +1,3 @@
+Vários motoboys que trabalham com entregas do iFood na região central de São Paulo moram longe de lá, alguns até a mais de 30 km de distância. Em alguns casos, a plataforma do aplicativo considera certos bairros como se fossem de outra cidade. Por isso, às vezes, quando o iFood envia promoções para São Paulo, esses bairros não recebem as notificações.
+
+Para resolver esse problema, estou desenvolvendo este projeto, que informa se há promoções específicas para determinadas regiões ou zonas de São Paulo por meio de notificaçõe push.
