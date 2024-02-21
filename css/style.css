@@ -5,12 +5,11 @@
 }
 
 body {
-    background-color: #FF001B;
+    background-color: red;
 }
 
 .title {
     color: white;
-    text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
     font-size: 3rem;
     margin: 25px
@@ -18,20 +17,26 @@ body {
 
 .active-content, .past-content{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
 .background-content {
-    background-color: wheat;
+    background-color: #004757ff;
     padding-top: 30px;
     border-radius: 10px;
-    height: 150px;
+    height: 200px;
     width: 700px;
 }
 
+.background-content > p {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.3rem;
+}
+
 .title-content{
-    color: #111111;
+    color: white;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.9rem;
@@ -48,7 +53,7 @@ p {
 
 
 .past-content > p {
-    background-color: wheat;
+    background-color: #f5deb3;
     border-radius: 10px;
     padding: 20px;
     width: 700px;
